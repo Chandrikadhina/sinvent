@@ -13,7 +13,7 @@ class KategoriController extends Controller
      */
     public function index()
     {
-        //
+        
     }
 
     /**
@@ -21,30 +21,30 @@ class KategoriController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       
+
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Kategori $kategori)
-    {
-        //
+    public function show(string $id)
+    {   
+        
     }
-
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Kategori $kategori)
+    public function update(Request $request, string $id)
     {
-        //
+        
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Kategori $kategori)
+    public function destroy(string $id)
     {
-        //
+       
     }
 }
